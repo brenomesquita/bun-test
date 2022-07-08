@@ -15,4 +15,4 @@ RUN chown -R 101:101 /app && chmod -R g+w /app
 USER appuser
 COPY . ./
 
-CMD bun run http.js
+CMD bun run server.js
